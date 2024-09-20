@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct FoodRequest : APIRequest {
+    
+    var url: URL = URL(string: "https://raw.githubusercontent.com/shobhakartiwari/shobhakar_api_collections/main/FoodData.json")!
+    
+}

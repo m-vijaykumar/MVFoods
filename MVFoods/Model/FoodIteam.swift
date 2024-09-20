@@ -7,11 +7,4 @@
 
 import Foundation
 
-struct FoodItem: Identifiable, Codable {
-    let id: Int
-    let name: String
-    let description: String
-    let weight: Int
-    let price: Int
-    let imageURL: URL?
-}
+
